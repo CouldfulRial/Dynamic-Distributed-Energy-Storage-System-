@@ -1,0 +1,13 @@
+# Slider properties
+SLIDER_WIDTH = 625
+SLIDER_HEIGHT = 10
+SLIDER_X = 20
+SLIDER_Y = 960
+
+# Knob properties
+KNOB_WIDTH = 20
+KNOB_HEIGHT = 30
+KNOB_X = SLIDER_X
+KNOB_Y = SLIDER_Y - (KNOB_HEIGHT - SLIDER_HEIGHT) // 2
+dragging = False
+
